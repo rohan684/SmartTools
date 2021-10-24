@@ -1,0 +1,405 @@
+/* thi is navigation*/
+.nav
+{
+    height:auto;
+}
+
+/* this is logo class */
+.logo_img
+{
+    width:40%;
+    height:80px;
+    margin-left: 10%;
+}
+/* this is menu items*/
+.menu_items
+{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+/* slider related codes*/
+.background
+{
+    position: absolute;
+    border-radius: 40px;
+    margin-top: -30%;
+    margin-left: 5%;
+    
+}
+.background_text
+{
+    margin-left:-4vw;
+    margin-top: -6vh;
+}
+
+.slide1text
+{
+    font-size: 4vw;
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+    color: black;
+    font-weight: 900;
+}
+.slidetext1
+{
+    font-size:2.5vw;
+    font-family: "Times";
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.slideimage
+{
+    height: 90vh;
+    width: 100%;
+}
+
+.center
+{
+    width: 100%;
+    height: auto;
+    
+}
+.mid
+{
+    width: 100%;
+    height: auto;
+
+}
+.mid h1
+{
+    color:red;
+    text-align: center;
+}
+.icon
+{
+    width: 10%;
+    height: 80px;
+}
+.card
+{
+    width: 80%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.h1
+{
+    margin-left: 28%;
+    color:navy;
+    font-size: 5vh;
+    font-weight: 600;
+    font-family: "PlayfairDisplay-Medium";
+
+}
+.h5
+{
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.why
+{
+    margin-left: 34%;
+    margin-top: 40px;
+    font-weight: 600;
+    font-family: "PlayfairDisplay-Medium";
+}
+.card1
+{
+    height: auto;
+    margin-left: 7%;
+    margin-top: 1.7%;
+    padding: 20px;
+}
+.card2
+{
+    height: auto 350px;
+    margin-top: 1.7%;
+    margin-left: 5%; 
+    padding: 20px;
+}
+.card3
+{
+    height: auto;
+    margin-top: 1.7%;
+    margin-left: 5%;
+    padding: 20px;
+}
+@media screen and (max-width: 600px)
+{
+    .card1
+    {
+        height: auto;
+        margin-left: 2%;
+        margin-top: 1.7%;
+        width:auto;
+        margin-right: 2%;
+    }
+    .card2
+    {
+        height: auto;
+        margin-left: 2%;
+        margin-top: 1.7%;
+        width: auto;
+        margin-right: 2%;
+ 
+    }
+    .card3
+    {
+        height: auto;
+        margin-left: 2%;
+        margin-top: 1.7%;
+        width:auto;
+        margin-right: 2%;
+
+    }
+     
+}
+.h3
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+    font-weight: 600;
+}
+.h5
+{
+    font-family: 'Times New Roman';
+    text-align: justify;
+}
+.marque
+{
+    height: 100px;
+    margin-top: 0px;
+}
+.mark
+{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.clints
+{
+    text-align: center;
+    font-size: 4vh;
+    font-family: "PlayfairDisplay-Medium";
+}
+/* footer nav */
+.icon1
+{
+    margin-top: 0.5%;
+    margin-left: 50%;
+    padding: 1%;
+}
+.icon2
+{
+    margin-left:80%;
+}
+.icon3
+{
+    margin-left:40%;
+}
+.footer_container_text
+{
+    margin: auto;
+}
+/* closed here*/
+
+.get
+{
+    display: inline;
+    margin-left: 10%;
+    font-family: "PlayfairDisplay-Medium";
+}
+.footlogo
+{
+    width: 45%;
+    margin-left: 10vw;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.social
+{
+    margin-left: 12%;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+.media
+{
+    margin-left: 1%;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+.about
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+}
+.trade
+{
+    text-align: center;
+    font-family: "PlayfairDisplay-Medium";
+
+}
+.hh4
+{
+    margin-left: 38%;
+    text-align: center;
+    font-family: "PlayfairDisplay-Medium";
+    text-decoration: none;
+    font-size: 20px;
+}
+.hh5
+
+{
+    font-family: "PlayfairDisplay-Medium";
+    margin-top: 20px;
+}
+.name
+{
+    font-family: "calibri";
+    font-size: 11pt;
+    text-align: center;
+}
+.bottom
+{
+    margin-top: 1px;
+}
+/* Slideshow container */
+.slideshow-container 
+{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active {
+    background-color: blue;
+  }
+  /* The dots/bullets/indicators 2nd */
+  .dot_2 {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border:1px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active {
+    background-color:blue;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+  }
+
+.toptext
+{
+    font-family: "PlayfairDisplay-Medium";
+}
+.clint
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+    font-weight: 600;
+    color: navy;
+}
+.review1
+{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.re
+{
+    margin-left: 105%;
+    margin-top: -60%;
+}
+.input
+{
+    border-radius: 10px;
+    outline:none;
+    text-align: center;
+    margin-left: 15%;
+    height: 40px;
+    width:300px;
+}
+.input:focus
+{
+    background-color: #c4fffb;
+    color:black;
+}
+/*securety media query*/
+
+@media only screen and (max-width: 600px) 
+{
+
+    .slide1text
+    {
+        font-size: 0px;
+    }
+    .slidetext1
+    {
+        font-size: 0px;
+    }
+    .slideimage
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .icon1
+    {
+        margin-left: 250px;
+    }
+    .footer_container_text
+    {
+        padding-left:50px;
+        margin-top:-50px;
+    }
+    .z0
+    {
+        padding-left: 59px;
+    }
+    .z1
+    {
+        padding-left: 67px;
+        margin-top: -60px;
+    }
+    .h1
+    {
+        margin-left: auto;
+        text-align: center;
+    }
+}

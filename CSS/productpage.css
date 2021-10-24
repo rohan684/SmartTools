@@ -1,0 +1,217 @@
+nav
+{
+    height:auto;
+}
+
+/* this is logo class */
+.logo_img
+{
+    width:40%;
+    height:80px;
+    margin-left: 10%;
+}
+/* this is menu items*/
+.menu_items
+{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.toptext
+{
+    font-family: "PlayfairDisplay-Medium";
+}
+.home
+{
+    background-color: red;
+    height:50px;
+    background-image: linear-gradient(red,black);
+}
+.p2
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "PlayfairDisplay-Medium";
+    margin-top: -3px;
+    color: white;
+}
+.sm
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center; 
+}
+.smart
+{
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.con
+{
+    text-align: center;
+    font-family: "PlayfairDisplay-Medium";
+    margin: 4%;
+}
+.card1
+{
+    margin-left: 227px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+.card2
+{
+    margin-left: 70px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+}
+.button
+{
+    margin-left: 110px;
+}
+.button2
+{
+    margin-left: 10px;
+}
+.number
+{
+    margin-top: 5%;
+    margin-left: 13%;
+    color: red;
+    font-size: 25px;
+    font-family: "PlayfairDisplay-Medium";
+}
+.company
+{
+    height: 270px;
+}
+.about
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+    margin-left: 20px;
+}
+.trademark
+{
+    height: 270px;
+}
+.trade
+{
+    text-align: center;
+    font-family: "PlayfairDisplay-Medium";
+
+}
+.hh4
+{
+    margin-left: 38%;
+    font-family: "PlayfairDisplay-Medium";
+    text-decoration: none;
+    font-size: 20px;
+}
+.hh5
+{
+    font-family: "PlayfairDisplay-Medium";
+    margin-top: 20px;
+}
+.name
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+}
+.bottom
+{
+    margin-top: 1px;
+}
+.footlogo
+{
+    width: 45%;
+    margin-left: 10vw;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.social
+{
+    margin-left: 12%;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+.media
+{
+    margin-left: 1%;
+    margin-top: 5vh;
+    font-size: 25px;
+}
+.get
+{
+    display: inline;
+    margin-left: 10%;
+    font-family: "PlayfairDisplay-Medium";
+}
+.name
+{
+    font-family: "PlayfairDisplay-Medium";
+    text-align: center;
+
+}
+.input
+{
+    border-radius: 10px;
+    outline:none;
+    text-align: center;
+    margin-left: 15%;
+    height: 40px;
+    width:300px;
+} 
+/* start here*/
+.z0
+{
+    margin-left: 2%;
+}
+.icon0
+{
+    margin-left: 65%;
+}
+.icon1
+{
+    margin-left:55%;
+}
+.icon2
+{
+    margin-left: 14vw;
+    margin-top: 10px;
+} 
+
+@media only screen and (max-width: 600px) 
+{
+    .smart
+    {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .card1
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .card2
+    {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .button
+    {
+        margin-left: 10%;
+    }
+    .icon1
+    {
+        margin-left: 49vw;;
+    }
+    .footer_container_text
+    {
+        margin-top: -10vh;
+        margin-left: 65px;
+    }
+    
+}
